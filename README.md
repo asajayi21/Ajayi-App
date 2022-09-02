@@ -1,1 +1,1 @@
-# Ajayi-App
+# Sample web design page.
