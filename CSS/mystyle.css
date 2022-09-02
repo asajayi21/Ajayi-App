@@ -1,0 +1,41 @@
+/*My CSS stylesheet for creating the same style for all html pages.
+*/
+header{
+    font-family:Papyrus, sans-serif;
+    font-size:28px;
+    padding:15px;
+    margin-left:15px;
+}
+.text{
+   text-align: right;
+   background-color: yellowgreen; 
+}
+.title
+{
+    text-align:center;
+    font-size:35px;
+    font-family:Papyrus, Verdana, Geneva, sans-serif;
+    font-variant: small-caps;
+    margin: 10px;
+    background-color: chocolate;
+    float: left;
+    font-weight: bolder;
+}
+
+.pad{
+    padding: 25px;
+}
+
+.logo
+{
+    text-align:center;
+    margin: 10px;
+    float: left;
+}
+
+body
+{
+    background-color: rgb(147,112,219);
+}
+
+
