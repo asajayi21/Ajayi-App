@@ -1,38 +1,57 @@
 /*My CSS stylesheet for creating the same style for all html pages.
 */
-header{
+
+*{
+    margin:0;
+    padding:0;
+}
+.main-name{
     font-family:Papyrus, sans-serif;
-    font-size:28px;
-    padding:15px;
+    font-size:68px;
+    font-weight: bolder;
+    padding:2%;
+    margin-left:3%;
+}
+
+.mlogo{
+    width: 300px;
+    height: 250px;
     margin-left:15px;
+    display:grid;
 }
-.text{
-   text-align: right;
-   background-color: yellowgreen; 
+
+.main-logo{
+    float:left;
+    width: 200px;
+    height: 200px;
+    border:solid black;
+    border-width: thin;
+    border-radius:50%; 
+    
 }
-.title
+
+.mtheme{
+    width: 300px;
+    height: 250px;
+    margin-left:15px;
+    display:inline;
+}
+
+.main-theme
 {
     text-align:center;
-    font-size:35px;
+    font-size:28px;
     font-family:Papyrus, Verdana, Geneva, sans-serif;
     font-variant: small-caps;
     margin: 10px;
-    background-color: chocolate;
-    float: left;
+ 
     font-weight: bolder;
+} 
+.main-lang{
+    
+    border-width: medium;
+    border: 2px solid rgb(77,25,51);
 }
-
-.pad{
-    padding: 25px;
-}
-
-.logo
-{
-    text-align:center;
-    margin: 10px;
-    float: left;
-}
-
 body
 {
     background-color: rgb(147,112,219);
